@@ -14,7 +14,7 @@
     <link rel="icon" type="image/png" href="./favicon.png" />
     <link rel="stylesheet" href="./style.css" />
 
-    <script src="./script.js" defer type="b90f4e431f08faf84feea9bf-text/javascript"></script>
+    <script src="./script.js"></script>
   </head>
   <body>
     <a class="skip-link" href="#main">Ugrás a tartalomhoz</a>
@@ -73,6 +73,53 @@
                 </p>
             </div>
             </div>
+
+      <section class="request-preview" aria-labelledby="request-title">
+        <div class="request-preview-copy">
+          <h2 id="request-title">Ha szeretnél zenét kérni, <br /> vagy műsorötleted van...</h2>
+          <p>
+            Írj egy E-Mail-t a 
+                <a href="mailto:teleki-studio@proton.me">teleki-studio@proton.me</a>
+                 E-Mail címre. 
+                 <br /> Jöhet midenféle iskolabarát, <a href="https://erd-telekisamuel.hu/wp-content/uploads/2025/10/Hazirend-2025-26_modositott.pdf">házirend</a>nek megfelelő<br />
+                téma, amiről szívesen hallgatnál rádióműsort. Azt is írd mellé, 
+                hogy pontosan mire lennél kíváncsi.
+                <br /> Nem ígérjük, hogy mindenből lesz műsor, de
+                az ötleteket szívesen fogadjuk, és elolvassuk.
+          </p>
+          <a class="button button-secondary" href="mailto:teleki-studio@proton.me"
+            > <!-- The mailto link, is just a temporary solution. The developer is working on a more modern thing. -->
+            <svg
+              class="icon"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.6"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <path d="M5 12h14M13 6l6 6-6 6" />
+            </svg>
+          </a>
+        </div>
+        <div class="request-preview-art" aria-hidden="true">
+          <img
+            class="preview-mail"
+            src="./mail_normal.png"
+            alt=""
+            loading="lazy"
+          />
+          <img
+            class="preview-idea"
+            src="./idea.png"
+            alt=""
+            loading="lazy"
+          />
+        </div>
+      </section>
     
       <section class="faq section-space" id="faq" aria-labelledby="faq-title">
         <div class="faq-intro">
@@ -88,12 +135,7 @@
             </summary>
             <div class="faq-answer">
               <p>
-                Írj egy E-Mail-t a 
-                <a href="mailto:teleki-studio@proton.me">teleki-studio@proton.me</a>
-                 E-Mail címre. Jöhet midenféle iskolabarát, <a href="https://erd-telekisamuel.hu/wp-content/uploads/2025/10/Hazirend-2025-26_modositott.pdf">házirend</a>nek megfelelő
-                téma, amiről szívesen hallgatnál rádióműsort. Azt is írd mellé, pontosan
-                mire lennél kíváncsi. Nem ígérjük, hogy mindenből lesz műsor, de
-                az ötleteket szívesen fogadjuk, és elolvassuk.
+                
               </p>
             </div>
           </details>
@@ -198,66 +240,13 @@
           stroke-linejoin="round"
           aria-hidden="true"
         >
-          <path d="M7 17 17 7M7 7h10v10" /></svg
-      ></a>
+          <path d="M7 17 17 7M7 7h10v10" />
+        </svg>
+      </a>
       <img src="./github.jpg"></img>
       <a href="https://github.com/teleki-studio">Forráskód (GitHub)</a>
       <img src="./license.jpg"></img>
       <a href="https://www.apache.org/licenses/LICENSE-2.0.html">Apache LICENSE v2.0</a>
     </footer>
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="b90f4e431f08faf84feea9bf-text/javascript">
-      !(function (t, e) {
-        var o, n, p, r;
-        e.__SV ||
-          ((window.posthog = e),
-          (e._i = []),
-          (e.init = function (i, s, a) {
-            function g(t, e) {
-              var o = e.split(".");
-              (2 == o.length && ((t = t[o[0]]), (e = o[1])),
-                (t[e] = function () {
-                  t.push([e].concat(Array.prototype.slice.call(arguments, 0)));
-                }));
-            }
-            (((p = t.createElement("script")).type = "text/javascript"),
-              (p.async = !0),
-              (p.src = s.api_host + "/static/array.js"),
-              (r = t.getElementsByTagName("script")[0]).parentNode.insertBefore(
-                p,
-                r,
-              ));
-            var u = e;
-            for (
-              void 0 !== a ? (u = e[a] = []) : (a = "posthog"),
-                u.people = u.people || [],
-                u.toString = function (t) {
-                  var e = "posthog";
-                  return (
-                    "posthog" !== a && (e += "." + a),
-                    t || (e += " (stub)"),
-                    e
-                  );
-                },
-                u.people.toString = function () {
-                  return u.toString(1) + ".people (stub)";
-                },
-                o =
-                  "capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(
-                    " ",
-                  ),
-                n = 0;
-              n < o.length;
-              n++
-            )
-              g(u, o[n]);
-            e._i.push([i, s, a]);
-          }),
-          (e.__SV = 1));
-      })(document, window.posthog || []);
-      posthog.init("phc_GqtAK3LTg39DMedQzIEZZPe1BTj1kGYgBysVLjEGHeu", {
-        api_host: "https://eu.posthog.com",
-      });
-    </script>
-  <script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="b90f4e431f08faf84feea9bf-|49" defer></script><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920" integrity="sha512-L0ha0OXavK/8okipN9F8BtP84dg9DUhPERbBXzwI6dgTA55d2+yweo3pn5CSFYs45/r8md2+xvUPtTdvTNRfjA==" data-cf-beacon='{"version":"2024.11.0","token":"1fb6f678c38341e491396530535b1891","r":1,"spa":2}' crossorigin="anonymous"></script>
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a49f5b27694bd3b9',t:'MTc5MTkwNTExNw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</body>
 </html>
