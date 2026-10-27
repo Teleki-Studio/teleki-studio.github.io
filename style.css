@@ -118,7 +118,7 @@ details[open] .faq-plus::after { transform: rotate(0); }
 .site-footer { border-top: 1px solid var(--line); display: flex; align-items: center; gap: 26px; padding-block: 28px; }
 .site-footer .brand { font-size: 1.25rem; }
 .site-footer p { color: var(--subtle); font-size: .875rem; }
-.site-footer > a:last-child { margin-left: auto; display: inline-flex; align-items: center; gap: 8px; color: var(--muted); font-size: .875rem; }
+.site-footer > a:last-child { display: inline-flex; align-items: center; gap: 8px; color: var(--muted); font-size: .875rem; }
 .site-footer > a:last-child .icon { width: 16px; height: 16px; }
 @media (min-width: 1500px) { .hero { padding-block: 112px 92px; } }
 @media (max-width: 1100px) {
