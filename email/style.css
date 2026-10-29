@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
 :root {
   color-scheme: dark;
   --text: #f7f4fc;
@@ -114,6 +116,7 @@ h1 { font-size: clamp(3.4rem, 5.2vw, 4.7rem); line-height: 1.08; font-weight: 80
 }
 .site-footer > a:last-child { display: inline-flex; align-items: center; gap: 8px; color: var(--muted); font-size: .875rem; }
 .site-footer > a:last-child .icon { width: 16px; height: 16px; }
+.jetbrains-mono { font-family: "JetBrains Mono", monospace; }
 @media (min-width: 1500px) { .hero { padding-block: 112px 92px; } }
 @media (max-width: 1100px) {
   .wrap { width: calc(100% - 64px); }
