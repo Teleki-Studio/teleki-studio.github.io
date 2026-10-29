@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
 :root {
   color-scheme: dark;
   --text: #f7f4fc;
@@ -120,6 +122,7 @@ details[open] .faq-plus::after { transform: rotate(0); }
 .site-footer p { color: var(--subtle); font-size: .875rem; }
 .site-footer > a:last-child { display: inline-flex; align-items: center; gap: 8px; color: var(--muted); font-size: .875rem; }
 .site-footer > a:last-child .icon { width: 16px; height: 16px; }
+.jetbrains-mono { font-family: "JetBrains Mono", monospace; }
 @media (min-width: 1500px) { .hero { padding-block: 112px 92px; } }
 @media (max-width: 1100px) {
   .wrap { width: calc(100% - 64px); }
